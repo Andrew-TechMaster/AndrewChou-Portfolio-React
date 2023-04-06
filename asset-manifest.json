@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AndrewChou-Portfolio-React/static/css/main.073c9b0a.css",
+    "main.js": "/AndrewChou-Portfolio-React/static/js/main.dcf30c07.js",
+    "static/js/787.5c44b484.chunk.js": "/AndrewChou-Portfolio-React/static/js/787.5c44b484.chunk.js",
+    "static/media/logo.svg": "/AndrewChou-Portfolio-React/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AndrewChou-Portfolio-React/index.html",
+    "main.073c9b0a.css.map": "/AndrewChou-Portfolio-React/static/css/main.073c9b0a.css.map",
+    "main.dcf30c07.js.map": "/AndrewChou-Portfolio-React/static/js/main.dcf30c07.js.map",
+    "787.5c44b484.chunk.js.map": "/AndrewChou-Portfolio-React/static/js/787.5c44b484.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.dcf30c07.js"
+  ]
+}
