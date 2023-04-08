@@ -1,4 +1,5 @@
 import React from "react";
+import CV from "../../../asstes/cv.pdf";
 import { Experience } from "./Experience";
 import "./resume.css";
 
@@ -40,6 +41,11 @@ export default function About() {
             <h3>Backend Development</h3>
             <div className="experience__content">{backEndContent}</div>
           </div>
+        </div>
+        <div className="cta">
+          <a href={CV} download className="btn">
+            Download CV
+          </a>
         </div>
       </section>
     </>

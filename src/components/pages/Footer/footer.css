@@ -1,0 +1,14 @@
+.footer__socials {
+    border-top: 1px var(--color-white) solid;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* margin-top: 5rem; */
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+}
