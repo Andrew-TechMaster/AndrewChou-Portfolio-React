@@ -5,10 +5,10 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    /* margin-top: 5rem; */
-
-    position: fixed;
+    margin-top: 5rem;
+    /* height: 10vh; */
+    /* position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 3px;
+    padding: 3px; */
 }

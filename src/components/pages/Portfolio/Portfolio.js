@@ -1,27 +1,79 @@
 import React from "react";
+import ProjectIMG1 from "../../../asstes/project01.png";
+import ProjectIMG2 from "../../../asstes/project02.jpg";
+import ProjectIMG3 from "../../../asstes/project03.png";
+import Project from "./Project";
+import "./portfolio.css";
 
-export default function Portfolio() {
+const Portfolio = () => {
+  const data = [
+    {
+      id: 1,
+      image: ProjectIMG2,
+      title: "Workout Nation",
+      github: "https://github.com/Andrew-TechMaster/Workout-Nation",
+      demo: "https://boiling-dusk-37737.herokuapp.com/",
+    },
+    {
+      id: 2,
+      image: ProjectIMG1,
+      title: "Cocktail Generator",
+      github: "https://github.com/Andrew-TechMaster/cocktail-generator",
+      demo: "https://jlddukes.github.io/cocktail-generator/",
+    },
+    {
+      id: 3,
+      image: ProjectIMG3,
+      title: "Code Quiz",
+      github:
+        "https://github.com/Andrew-TechMaster/Andrew-UWBootcamp-Challenge-04-Web-APIs-Code-Quiz",
+      demo: "https://andrew-techmaster.github.io/Andrew-UWBootcamp-Challenge-04-Web-APIs-Code-Quiz/",
+    },
+  ];
+
+  const projects = data.map((project) => {
+    return (
+      <Project
+        id={project.id}
+        image={project.image}
+        title={project.title}
+        github={project.github}
+        demo={project.demo}
+      />
+    );
+  });
+
   return (
     <section id="portfolio">
-      <div>
-        <h1>Portfolio Page</h1>
-        <p>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci,
-          finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta
-          dictum nunc, sed pretium risus rutrum eget. Nam consequat, ligula in
-          faucibus vestibulum, nisi justo laoreet risus, luctus luctus mi lacus
-          sit amet libero. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-          tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis
-          in faucibus. Donec placerat accumsan mi, ut congue neque placerat eu.
-          Donec nec ipsum in velit pellentesque vehicula sit amet at augue.
-          Maecenas aliquam bibendum congue. Pellentesque semper, lectus non
-          ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis
-          dui in sapien.
-        </p>
+      <div className="container portfolio__container">
+        {/* <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={ProjectIMG1} alt="project1" />
+          </div>
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article> */}
+        {projects}
       </div>
     </section>
   );
-}
+};
+
+export default Portfolio;
