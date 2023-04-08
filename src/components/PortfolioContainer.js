@@ -4,7 +4,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
+import Resume from "./pages/Resume/Resume";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
