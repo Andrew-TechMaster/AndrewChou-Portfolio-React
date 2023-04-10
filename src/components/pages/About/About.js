@@ -43,7 +43,7 @@ export default function Home() {
             get in touch if you have any questions or would like to discuss a
             project.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <a href="mailto:andrewchou1996@gmail.com" className="btn btn-primary">
             Let's Talk
           </a>
         </div>

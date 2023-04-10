@@ -21,9 +21,9 @@ const Footer = () => {
       >
         <FaGithub />
       </a>
-      <a href="https://google.com" target="_blank" rel="noreferrer">
+      {/* <a href="https://google.com" target="_blank" rel="noreferrer">
         <FiDribbble />
-      </a>
+      </a> */}
     </div>
   );
 };
