@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AndrewChou-Portfolio-React/static/css/main.02605913.css",
-    "main.js": "/AndrewChou-Portfolio-React/static/js/main.bb7aa227.js",
+    "main.js": "/AndrewChou-Portfolio-React/static/js/main.136d7fb8.js",
     "static/js/787.5c44b484.chunk.js": "/AndrewChou-Portfolio-React/static/js/787.5c44b484.chunk.js",
     "static/media/project02.jpg": "/AndrewChou-Portfolio-React/static/media/project02.b8036e965481a5c7f2c9.jpg",
     "static/media/project03.png": "/AndrewChou-Portfolio-React/static/media/project03.4e9bf8cf1f29e98e32e3.png",
@@ -10,11 +10,11 @@
     "static/media/cv.pdf": "/AndrewChou-Portfolio-React/static/media/cv.7e54326bb902675b2022.pdf",
     "index.html": "/AndrewChou-Portfolio-React/index.html",
     "main.02605913.css.map": "/AndrewChou-Portfolio-React/static/css/main.02605913.css.map",
-    "main.bb7aa227.js.map": "/AndrewChou-Portfolio-React/static/js/main.bb7aa227.js.map",
+    "main.136d7fb8.js.map": "/AndrewChou-Portfolio-React/static/js/main.136d7fb8.js.map",
     "787.5c44b484.chunk.js.map": "/AndrewChou-Portfolio-React/static/js/787.5c44b484.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02605913.css",
-    "static/js/main.bb7aa227.js"
+    "static/js/main.136d7fb8.js"
   ]
 }
