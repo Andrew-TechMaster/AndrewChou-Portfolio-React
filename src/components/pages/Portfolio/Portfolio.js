@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectIMG4 from "../../../asstes/porject04.jpeg";
 import ProjectIMG1 from "../../../asstes/project01.png";
 import ProjectIMG2 from "../../../asstes/project02.jpg";
 import ProjectIMG3 from "../../../asstes/project03.png";
@@ -28,6 +29,13 @@ const Portfolio = () => {
       github:
         "https://github.com/Andrew-TechMaster/Andrew-UWBootcamp-Challenge-04-Web-APIs-Code-Quiz",
       demo: "https://andrew-techmaster.github.io/Andrew-UWBootcamp-Challenge-04-Web-APIs-Code-Quiz/",
+    },
+    {
+      id: 4,
+      image: ProjectIMG4,
+      title: "HopShop",
+      github: "https://github.com/Andrew-TechMaster/shophop",
+      demo: "https://shophop2.herokuapp.com/",
     },
   ];
 
